@@ -4,15 +4,15 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 73c27c7abd01df24b8dbde87066434c8
+  productGUID: f13b43137701963499a90c97f054eb61
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: uvgFreedomAR
-  productName: freedom
+  companyName: DefaultCompany
+  productName: HCIFreedom
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -157,8 +157,7 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier:
-    Android: com.uvg.FreedomAR
+  applicationIdentifier: {}
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -262,8 +261,6 @@ PlayerSettings:
   m_BuildTargetVRSettings: []
   m_BuildTargetEnableVuforiaSettings:
   - m_BuildTarget: Standalone
-    m_Enabled: 1
-  - m_BuildTarget: Android
     m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -562,14 +559,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: freedom
+  metroPackageName: HCIFreedom
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: freedom
+  metroApplicationDescription: HCIFreedom
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -639,9 +636,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 06ed2fd0-682b-4431-a928-4dd421b82e9c
-  projectName: freedom (2)
-  organizationId: yasmin1
+  cloudProjectId: f59c44f8-5501-443e-bbaf-65268e2f780c
+  projectName: HCIFreedom
+  organizationId: ivette16020
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
