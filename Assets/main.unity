@@ -757,11 +757,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 510059824}
-  m_LocalRotation: {x: 0.07765395, y: -0.8403553, z: -0.53217393, w: 0.06755594}
-  m_LocalPosition: {x: 0.39, y: 1.62, z: -0.26}
-  m_LocalScale: {x: 0.31992853, y: 0.31992853, z: 0.31992853}
+  m_LocalRotation: {x: 0.0071403747, y: -0.9705247, z: 0.21791714, w: 0.102678895}
+  m_LocalPosition: {x: 1.957, y: 6.874001, z: 1.9200001}
+  m_LocalScale: {x: 0.063985735, y: 0.06398573, z: 0.06398573}
   m_Children: []
-  m_Father: {fileID: 1810054919}
+  m_Father: {fileID: 1709327535}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -62.121002, y: 564.807, z: -745.651}
 --- !u!102 &510059826
@@ -3256,6 +3256,7 @@ GameObject:
   - component: {fileID: 1179108959}
   - component: {fileID: 1179108958}
   - component: {fileID: 1179108966}
+  - component: {fileID: 1179108967}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -3506,8 +3507,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 437729d82924bd14ea766904e9faee01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gt: {fileID: 0}
+  gt: {fileID: 510059826}
   vbBtnObj: {fileID: 136991929}
+--- !u!114 &1179108967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1179108950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da071ca5dbdc4054d9e01773e27b7c0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gt: {fileID: 1810054918}
+  vbBtnObj: {fileID: 515530371}
 --- !u!1 &1198126154
 GameObject:
   m_ObjectHideFlags: 0
@@ -5524,6 +5538,7 @@ Transform:
   m_LocalPosition: {x: -0.7099879, y: -1.2090615, z: 2.1721656}
   m_LocalScale: {x: 0.34507328, y: 0.3450736, z: 0.345073}
   m_Children:
+  - {fileID: 510059825}
   - {fileID: 1810054919}
   m_Father: {fileID: 1179108951}
   m_RootOrder: 0
@@ -5701,10 +5716,9 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.879, y: 6.926, z: 2.244}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_Children:
-  - {fileID: 510059825}
+  m_Children: []
   m_Father: {fileID: 1709327535}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1810054920
 Animator:

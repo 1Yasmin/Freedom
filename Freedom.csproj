@@ -243,6 +243,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\addSwt.cs" />
     <Compile Include="Assets\addText.cs" />
     <Compile Include="Assets\BtnRotate.cs" />
     <Compile Include="Assets\exitBtn.cs" />
